@@ -1,0 +1,110 @@
+http://www.codejava.net/coding/jsp-servlet-jdbc-mysql-create-read-update-delete-crud-example
+
+https://www.cmgine.com/archives/16594.html
+
+https://www.guru99.com/jsp-database-connection.html
+
+https://stackoverflow.com/questions/3527264/how-to-create-a-pojo
+
+
+
+
+1)arraylist example
+2)pojo or bean class or model
+3)controller -> dao -> daoImpl 
+4)jstl and jsp(forward)
+5)japanese
+
+
+POJO EXAMPLE
+====================
+public class MyFirstPojo
+{
+    private String name;
+
+    public static void main(String [] args)
+    {
+       for (String arg : args)
+       {
+          MyFirstPojo pojo = new MyFirstPojo(arg);  // Here's how you create a POJO
+          System.out.println(pojo); 
+       }
+    }
+
+    public MyFirstPojo(String name)
+    {    
+        this.name = name;
+    }
+
+    public String getName() { return this.name; } 
+
+    public String toString() { return this.name; } 
+
+
+
+LIST EXAMPLE
+=========================
+package com.sample;
+
+import java.util.ArrayList;
+
+public class test {
+	
+	  public static void main(String args[]) {
+		  ArrayList<String> obj = new ArrayList<String>();
+
+		  obj.add("Ajeet");
+		  obj.add("Harry");
+		  obj.add("Chaitanya");
+		  obj.add("Steve");
+		  obj.add("Anuj");
+		  
+		  /*Add element at the given index*/
+		  obj.add(0, "Rahul");
+		  obj.add(1, "Justin");
+
+		  System.out.println("Currently the array list has following elements:"+obj);
+
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
