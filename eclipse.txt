@@ -1,0 +1,4 @@
+https://www.eclipse.org/downloads/download.php?file=/oomph/epp/photon/R/eclipse-inst-win64.exe
+
+http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html
+
