@@ -1,0 +1,118 @@
+interface and abstract:
+=============================
+interface can only posses declaration of a method and no implementation
+methods should be public static
+
+abstract - can have both concrete and non concrete methods.
+
+when do we go for the abstract class is that when we know the implementation 
+interface - when we do not know the impelmentation, we just specify the method and whoever implemnts the methods must
+privide the implementation.
+
+Q) What data structure is used to implement HashSet?
+==========================================================
+Ans) HashSet implements Hashmap internally to store the data. The data passed to hashset 
+is stored as a key in hashmap with null as value. This can be summarized as HashMap with keys and null 
+value is a hashset.
+
+concurrent hashmap
+====================
+A concurrentHashMap is a thread-safe implementation of Map interface.
+we go for CHM when there is more of read operations than the write or update operations. 
+Since ConcurrentHashMap implementation doesn't lock whole Map, there is chance of read overlapping with update operations.
+ConcurrentHashMap doesn't allow null as key or value.
+During putAll() and clear() operations, the concurrent read may only reflect insertion or deletion of some entries.
+Use ConcurrentHashMap in Java program, when there will be more reader than writers and it’s a good choice for 
+creating cache in Java as well.
+popular usecase is using them as a cache.
+
+Hashing
+=============
+For example you want to store the string "Rachel" you apply a hash function to that string to get a memory 
+location. myHashFunction(key: "Rachel" value: "Rachel") --> 10. The function may return 10 for the input "Rachel" 
+so assuming you have an array of size 100 you store "Rachel" at index 10. If you want to retrieve that element you
+ just call GetmyHashFunction("Rachel") and it will return 10.
+
+
+Hashmap and hashtable
+=========================
+Bot uses hashing datastructure internally.
+hashmap is not thread safe while hashtable is thread safe.
+HashMap allows null values as key and value whereas Hashtable doesn't allow nulls.
+Hashmap when iterated, use of add or remove element will result in ConcurrentModificationException .
+
+hashmap and Hashset
+=========================
+Hashset internally uses hashmap.
+where Key is the object you have passed and value is another object,  called PRESENT(constant).All keys will have the same. value.
+
+
+Linkedhashmap
+==============
+maintains insertion order.
+not synchronized.
+
+TreeMap and TreeSet
+=====================
+maintains sorting order.
+natural sorting by comparable and custom sorting by comparator.
+Both are not synchronized.
+Both throws concurrent modification exception(fail-fast).
+treetset uses treetMap internally, which internally uses HashMap.
+
+diff ----- implements set interface == map interface
+
+Hashset vs TreeSet
+======================
+Both are not synchronized.
+hashset is faster than treeset
+hashset doesnot maintain ordering while treeset uses comparable and comparator.
+hashset allows one null object while treet set doesnot allow null objects.
+
+ArrayList vs HashSet
+========================
+Both are not synchronized.
+ArrayListallow duplicates while HashSet doesn't allow duplicates. 
+ArrayList is index bases where as hashset is object based.
+
+ArrayList and LinkedList
+================================
+ArrayList and LinkedList are ordered.
+ArrayList and LinkedList also allow duplicates and null
+ArrayList for frequent retrivel operations and linkedlist is for insertion or deletion in the front or back. deletion in
+the middle takes time but once you found a particular node, delete or insert is faster. 
+
+
+Vector and linkedlist
+=======================
+vector is synchronized.
+it falls under legacy class.
+ArrayList is faster.
+vector is similar to arrayList which extends AbstractList and implements List
+vector is for insert and deletion at the back whereas linkedlist is for front and back.
+
+List          			Set        			map
+=============================================================================
+allow duplicates              no duplicates                    key value pair
+maintains order		      unordered
+allows null(any no)           allows one null			no null
+-popular list		     -hashset, linkedhashset		- linkedhashmap,hashtable and treemap
+implemntations are	      and treeSet
+arraylist,linkedlist
+and vector
+-access elements	     - dont want duplicate		- key and value pair format
+frequently
+
+
+
+
+
+
+
+
+
+
+
+
+
+
