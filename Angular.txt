@@ -1,0 +1,13 @@
+https://www.toptal.com/angular-js/a-step-by-step-guide-to-your-first-angularjs-app
+
+https://www.concretepage.com/angular-2/angular-4-crud-example
+
+https://github.com/mraible/ng-demo
+
+https://appdividend.com/2018/01/21/angular-5-crud-tutorial-example-scratch/
+
+https://neelbhatt.com/2018/01/12/crud-operation-in-angular-4-angular-4-core-2-0-crud-operation-part-ii/
+
+https://mydevgeek.com/angular-4-crud-application-with-spring-boot-rest-service-part-2/
+
+https://o7planning.org/en/11645/crud-restful-web-service-with-spring-boot-example
