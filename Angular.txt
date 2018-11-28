@@ -11,3 +11,38 @@ https://neelbhatt.com/2018/01/12/crud-operation-in-angular-4-angular-4-core-2-0-
 https://mydevgeek.com/angular-4-crud-application-with-spring-boot-rest-service-part-2/
 
 https://o7planning.org/en/11645/crud-restful-web-service-with-spring-boot-example
+
+https://www.javaworld.com/article/2078034/spring-framework/spring-framework-mastering-spring-mvc.html
+
+https://mindmajix.com/spring-boot-vs-spring-mvc
+
+SPRING ALL FNCTIONALITY LIKE SCHEDULER, LDAP:
+====================================================
+https://spring.io/guides
+
+https://stackoverflow.com/questions/19414734/understanding-spring-autowired-usage
+
+https://data-flair.training/blogs/spring-mvc-framework/
+
+https://www.geeksforgeeks.org/design-parking-lot-using-object-oriented-principles/
+
+https://www.careerride.com/MVC-benefits.aspx
+
+REACT JS
+=============
+https://reactforbeginners.com/
+
+ANGULAR CRUD
+===============
+https://medium.com/@mail.bahurudeen/simple-crud-functionality-using-angular-5-with-bootstrap-4-f7baac0d2000
+http://www.thejavageek.com/2017/04/18/angular-4-crud-example/
+https://www.tonymarston.net/php-mysql/3-tier-architecture.html
+https://www.careerride.com/MVC-benefits.aspx
+
+ANGULAR JS with spring MVC
+===============================
+https://stackoverflow.com/questions/34827797/spring-security-angular-js-spring-mvc-rest
+
+SPRING BOOT
+=============
+https://docs.spring.io/spring-boot/docs/current/reference/html/getting-started-first-application.html
